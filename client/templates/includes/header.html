@@ -1,0 +1,56 @@
+<template name="header">
+	<div class="navbar navbar-static-top">
+  <form class="navbar-form pull-left form-search">
+    <div class="input-append">
+      <i class="icon-zoom-in"></i>
+        <input data-provide="typeahead" data-items="4" type="text" 
+           class="span2 search-query" placeholder="My Search">
+        <button class="btn">Search
+        <span class="glyphicon glyphicon-search"></span>
+        </button>
+  </div>
+  </form>
+    <div class="nagivation">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="{{ pathFor 'home'}}">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">WASH in School<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="water-quality">Water</a></li>
+            <li><a href="#">Sanitation</a></li>
+            <li><a href="#">Hygiene Promotion</a></li> 
+            <li><a href="#">Menstrual Hygiene Management</a></li>
+            <li><a href="#">WASH in Schools Games</a></li>  
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">WASH News<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Global News</a></li>
+            <li><a href="#">National News</a></li>
+            <li><a href="#">Conferences</a></li> 
+          </ul>
+        </li> 
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Global Events<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.unwater.org/worldwaterday">World Water Day</a></li>
+            <li><a href="http://menstrualhygieneday.org">Menstrual Hygiene Day</a></li>
+            <li><a href="http://www.unep.org/">World Environment Day</a></li> 
+            <li><a href="http://globalhandwashing.org">Global Handwashing Day</a></li> 
+            <li><a href="http://worldtoilet.org">World Toilet Day</a></li> 
+          </ul>
+        </li>
+        <ul class="nav navbar-nav navbar-right">
+             {{> loginButtons}}  
+        </ul> 
+      </ul>
+      <!--  <div id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+             {{> loginButtons}}  
+          </ul> 
+        </div> -->
+    </div> 
+    
+</div>
+</template>

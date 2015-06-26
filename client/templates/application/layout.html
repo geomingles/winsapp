@@ -1,0 +1,11 @@
+<template name="layout">
+  <div class="container">
+      {{> loading}}
+      {{> logo}}
+      {{> header}}
+      {{> listgroup}}
+    <div id="main">
+      {{>yield}}
+    </div>
+</div>
+</template>

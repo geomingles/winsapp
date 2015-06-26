@@ -1,0 +1,183 @@
+body {
+    background-color:#495762;
+    background:-webkit-linear-gradient(to bottom, #495762, #a1d3b0);
+    background: -moz-linear-gradient(to bottom, #495762, #a1d3b0);
+    background: linear-gradient(to bottom, #495762, #a1d3b0);
+}
+
+h1:hover {
+    text-align: center;
+    font-size: 90px;
+    color: #050A2E;
+    font-weight: bolder;
+    margin-top: 10px;
+    display: inline;
+    margin-right: 30px;
+}
+
+.header {
+
+}
+h2 {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#main {
+    float: right;
+    color: #050A2E;
+    padding-left: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 80%;
+    margin-top: 0px;
+}
+
+.nagivation {
+    float: right;
+    margin-top: 15px;
+
+}
+
+.navbar {
+    margin-right: 20px;
+    display: inline;
+}
+
+ ul .nav navbar-nav {
+    text-align: 0;
+    margin-right: 0px;
+    margin-top: 0px;
+ }
+
+
+h3 {
+    color: #CCCFFF;
+    font-size: 30px;
+}
+
+h4 {
+    color:#fff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+a {
+    color: #0B0719;
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+    clear: both;
+    text-align: left;
+
+}
+
+
+#nav-nav ul a h4 {
+    color: #050A2E;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+#box {
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 130%; 
+    height: 300px; 
+    background: #C1A104;
+}
+
+#nav main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+#cont {
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.list-group {
+    width: 15%;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+}
+
+.icon-zoom-in {
+    position:relative;
+    left:23px;
+    top:-8px;
+    z-index:999;
+}
+
+.input-append input {
+    height:30px;
+    padding-left:20px;
+    margin-top: 40px;
+}
+
+.imagelogo {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 5px;
+    display: inline-block;
+    float: left;
+    padding: 40px 0 22px 0;
+}
+
+div img {
+    padding-left: 0px;
+    padding-top: 0px;   
+}
+
+
+.loading-message {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #07DDFA;
+}
+
+#myCarousel {
+    width: 80%;
+    float: right;
+    clear: both;
+    margin-right: 40px;
+    height: 410px;
+}
+
+.slideshow { 
+    height: 100px;
+
+}
+
+.carousel-caption {
+    background-color: none;
+    width: 80%;
+    float: both;
+}
+div .page-header {
+    background-color: #210B61;
+}
+
